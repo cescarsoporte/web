@@ -31,7 +31,7 @@ const DiagSec = () => {
                         <p>CIENCIAS NATURALES</p>
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary hadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdLho2oKw85KyQjAMVMTb2a3mQjLSAyS8HupujRe0qsEQPhtA/viewform?pli=1" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
