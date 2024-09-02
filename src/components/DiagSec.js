@@ -31,9 +31,9 @@ const DiagSec = () => {
                         <p>CIENCIAS NATURALES</p>
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary hadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdLho2oKw85KyQjAMVMTb2a3mQjLSAyS8HupujRe0qsEQPhtA/viewform?pli=1" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdLho2oKw85KyQjAMVMTb2a3mQjLSAyS8HupujRe0qsEQPhtA/viewform?pli=1" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfHPzjosOccNOSprtV3QnNwn1jCunyHQdK9uV_mpQlMpA5iVA/viewform" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfHPzjosOccNOSprtV3QnNwn1jCunyHQdK9uV_mpQlMpA5iVA/viewform" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Olimpíadas de lengua española, categoría A: (5to y 6to de primaria).">CATEGORIA A</a></li><p />
@@ -51,13 +51,28 @@ const DiagSec = () => {
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Olimpíadas de lengua española, categoría A: (5to y 6to de primaria).">CATEGORIA A</a></li><p />
                         </ul>
                     </div>
-                    <div className="col-1 col-sm-2 secundaria shadow w-auto">
-                        <p className="text-center">INGLES</p>
+					<div className="col-1 col-sm-2 secundaria shadow w-auto">
+                        <p>QUIMICA</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Para alumnos de 5TO y 6TO de primaria.  ">CATEGORIA A</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Para alumnos de 1RO y 2DO de secundaria.">CATEGORIA B</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Para alumnos de 3RO y 4TO de secundaria.">CATEGORIA C</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Para alumnos de 5TO y 6TO de secundaria.">CATEGORIA D</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSdLho2oKw85KyQjAMVMTb2a3mQjLSAyS8HupujRe0qsEQPhtA/viewform?pli=1" target="_blank" title="OLIMPIADA INTERNA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfHPzjosOccNOSprtV3QnNwn1jCunyHQdK9uV_mpQlMpA5iVA/viewform" target="_blank" title="OLIMPIADA INTERNA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Olimpíadas de quimica, categoría A: (5to y 6to de primaria).">CATEGORIA A</a></li><p />
+                        </ul>
+                    </div>
+					<div className="col-1 col-sm-2 secundaria shadow w-auto">
+                        <p>FISICA</p>
+                        <ul className="list-unstyled">
+                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/HoWTr3fbAGtNfDFK8" target="_blank" title="OLIMPIADA INTERNA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Olimpíadas de fisica, categoría A: (5to y 6to de primaria).">CATEGORIA A</a></li><p />
                         </ul>
                     </div>
                 </div>
