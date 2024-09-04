@@ -14,8 +14,8 @@ function App() {
       <div className="row">
         <Sitios/>
         <div className="col">
-          <h5 className='text-center'>MEDICION DE LOS INDICADORES DE LOGROS</h5>
-          <Accordion/>
+          <h5 className='text-center'>EVALUACION DE LOS INDICADORES DE LOGROS</h5>
+          <Accordion />
           </div>
       </div>
       <div className="row"><Footer/></div>
