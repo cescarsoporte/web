@@ -9,7 +9,7 @@ const Sitios = () => {
       <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
-            className="accordion-button px-1"
+            className="accordion-button collapsed px-1"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#accordion-2 .item-1"

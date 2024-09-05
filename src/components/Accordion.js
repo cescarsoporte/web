@@ -11,7 +11,7 @@ const Accordion = () => {
       <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
-            className="accordion-button"
+            className="accordion-button collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#accordion-1 .item-1"
