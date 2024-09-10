@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DiagSec from './DiagSec';
 import FormativaSec from './FormativaSec';
 import SumativaSec from './SumativaSec';
@@ -6,6 +6,32 @@ import OlimpSec from './OlimpSec';
 import OlimpDist from './OlimpDist';
 
 const Accordion = () => {
+  // Estado para manejar la visibilidad del contenido protegido
+  const [isOlimpDistOpen, setIsOlimpDistOpen] = useState(false);
+  const [isPasswordProtected, setIsPasswordProtected] = useState(false);
+  const [password, setPassword] = useState('');
+  const [inputPassword, setInputPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const correctPassword = '6666'; // La contraseña establecida en el código
+
+  const handlePasswordSubmit = (event) => {
+    event.preventDefault();
+    if (inputPassword === correctPassword) {
+      setIsPasswordProtected(true);
+      setError('');
+    } else {
+      setError('Contraseña incorrecta');
+    }
+  };
+
+  const handleAccordionClick = () => {
+    if (!isPasswordProtected) {
+      setIsOlimpDistOpen(!isOlimpDistOpen);
+      setIsPasswordProtected(false);
+    }
+  };
+
   return (
     <div id="accordion-1" className="accordion shadow-lg" role="tablist">
       <div className="accordion-item">
@@ -27,12 +53,12 @@ const Accordion = () => {
           data-bs-parent="#accordion-1"
         >
           <div className="accordion-body">
-           <DiagSec />
+            <DiagSec />
           </div>
         </div>
       </div>
-	  
-	        <div className="accordion-item">
+
+      <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
             className="accordion-button collapsed"
@@ -51,12 +77,12 @@ const Accordion = () => {
           data-bs-parent="#accordion-1"
         >
           <div className="accordion-body">
-           <FormativaSec />
+            <FormativaSec />
           </div>
         </div>
       </div>
-	  
-	  <div className="accordion-item">
+
+      <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
             className="accordion-button collapsed"
@@ -75,11 +101,11 @@ const Accordion = () => {
           data-bs-parent="#accordion-1"
         >
           <div className="accordion-body">
-           <SumativaSec />
+            <SumativaSec />
           </div>
         </div>
       </div>
-	  
+
       <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
@@ -98,12 +124,29 @@ const Accordion = () => {
           role="tabpanel"
           data-bs-parent="#accordion-1"
         >
-          <div className="accordion-body">
-            <OlimpSec />
+                    <div className="accordion-body">
+            {isPasswordProtected ? (
+              <OlimpSec />
+            ) : (
+              <form onSubmit={handlePasswordSubmit}>
+                <div className="mb-3">
+                  <label htmlFor="passwordInput" className="form-label">Ingrese la contraseña:</label>
+                  <input
+                    type="password"
+                    id="passwordInput1"
+                    className="form-control"
+                    value={inputPassword}
+                    onChange={(e) => setInputPassword(e.target.value)}
+                  />
+                </div>
+                {error && <div className="alert alert-danger">{error}</div>}
+                <button type="submit" className="btn btn-primary">Enviar</button>
+              </form>
+            )}
           </div>
         </div>
       </div>
-	  
+
       <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
@@ -111,19 +154,37 @@ const Accordion = () => {
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#accordion-1 .item-5"
-            aria-expanded="false"
+            aria-expanded={isOlimpDistOpen}
             aria-controls="accordion-1 .item-5"
+            onClick={handleAccordionClick}
           >
             OLIMPIADA DISTRITO EDUCATIVO 1502
           </button>
         </h2>
         <div
-          className="accordion-collapse collapse item-5"
+          className={`accordion-collapse collapse item-5 ${isOlimpDistOpen ? 'show' : ''}`}
           role="tabpanel"
           data-bs-parent="#accordion-1"
         >
           <div className="accordion-body">
-           <OlimpDist />
+            {isPasswordProtected ? (
+              <OlimpDist />
+            ) : (
+              <form onSubmit={handlePasswordSubmit}>
+                <div className="mb-3">
+                  <label htmlFor="passwordInput" className="form-label">Ingrese la contraseña:</label>
+                  <input
+                    type="password"
+                    id="passwordInput2"
+                    className="form-control"
+                    value={inputPassword}
+                    onChange={(e) => setInputPassword(e.target.value)}
+                  />
+                </div>
+                {error && <div className="alert alert-danger">{error}</div>}
+                <button type="submit" className="btn btn-primary">Enviar</button>
+              </form>
+            )}
           </div>
         </div>
       </div>
