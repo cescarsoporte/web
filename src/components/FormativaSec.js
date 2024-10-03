@@ -20,10 +20,10 @@ const FormativaSec = () => {
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/kTaNLvBbvb24L1vy6" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO A</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/QXYcwBcTkUCvr1oHA" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO B</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/dKSe6X1pg5cLFqb69" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO B</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/ZkTctX8Cs88extTN7" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO C</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://forms.gle/kTaNLvBbvb24L1vy6" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO A</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://forms.gle/QXYcwBcTkUCvr1oHA" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO B</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://forms.gle/dKSe6X1pg5cLFqb69" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO B</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://forms.gle/ZkTctX8Cs88extTN7" target="_blank" title="EDUCACION FORMATIVA DE MATEMATICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO C</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE matematica, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                         </ul>
                     </div>
