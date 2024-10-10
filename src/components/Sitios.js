@@ -52,7 +52,7 @@ const Sitios = () => {
                 <li><a href="https://www.uptodown.com/android" target="_blank" title="Es un marketplace centrado en la distribución de software de escritorio y aplicaciones móviles.">Uptodown</a></li>
                 <li><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank" title="La enciclopedia de contenido libre.">Wikipedia</a></li>
                 <li><a href="https://wordwall.net/" target="_blank" title="crear juegos interactivos y materiales impresos para sus alumnos. ">Wordwall</a></li>
-				/* <li><a className="btn btn-primary shadow" href="https://ee.kobotoolbox.org/x/ti7RuGtr" target="_blank" title="Encuesta de inscripción 2023 Abriendo Camino">Encuesta</a></li> */
+				<!-- <li><a className="btn btn-primary shadow" href="https://ee.kobotoolbox.org/x/ti7RuGtr" target="_blank" title="Encuesta de inscripción 2023 Abriendo Camino">Encuesta</a></li> -->
                 <li><a className="btn btn-primary disabled shadow" href="https://ee.kobotoolbox.org/x/CUbATOVh" target="_blank" title="">Aplicacion de PreTest</a></li>
             </ul>
         </div>
