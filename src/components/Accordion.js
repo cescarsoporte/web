@@ -66,6 +66,7 @@ const Accordion = () => {
       ),
       target: 'item-4',
       onClick: handleAccordionClick,
+	  ariaExpanded: isOlimpDistOpen
     },
     {
       title: 'OLIMPIADA DISTRITO EDUCATIVO 1502',
