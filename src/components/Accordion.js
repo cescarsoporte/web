@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import DiagSec from './DiagSec';
 import FormativaSec from './FormativaSec';
 import SumativaSec from './SumativaSec';
@@ -7,7 +7,7 @@ import OlimpDist from './OlimpDist';
 
 const correctPassword = '4455'; // La contraseña establecida en el código
 
-const PasswordForm = ({ onSubmit, error, value, onChange, inputRef }) => (
+const PasswordForm = ({ onSubmit, error, value, onChange }) => (
   <form onSubmit={onSubmit}>
     <div className="mb-3">
       <label htmlFor="passwordInput" className="form-label">Ingrese la contraseña:</label>
@@ -17,7 +17,6 @@ const PasswordForm = ({ onSubmit, error, value, onChange, inputRef }) => (
         className="form-control"
         value={value}
         onChange={onChange}
-        ref={inputRef}
       />
     </div>
     {error && <div className="alert alert-danger">{error}</div>}
@@ -27,11 +26,9 @@ const PasswordForm = ({ onSubmit, error, value, onChange, inputRef }) => (
 
 const Accordion = () => {
   const [isOlimpDistOpen, setIsOlimpDistOpen] = useState(false);
-  const [isOlimpSecOpen, setIsOlimpSecOpen] = useState(false);
   const [isPasswordProtected, setIsPasswordProtected] = useState(false);
   const [inputPassword, setInputPassword] = useState('');
   const [error, setError] = useState('');
-  const inputRef = useRef(null);
 
   const handlePasswordSubmit = (event) => {
     event.preventDefault();
@@ -43,14 +40,9 @@ const Accordion = () => {
     }
   };
 
-  const handleAccordionClick = (section) => {
+  const handleAccordionClick = () => {
     if (!isPasswordProtected) {
-      if (section === 'OlimpSec') {
-        setIsOlimpSecOpen(!isOlimpSecOpen);
-      } else if (section === 'OlimpDist') {
-        setIsOlimpDistOpen(!isOlimpDistOpen);
-      }
-      inputRef.current.focus();
+      setIsOlimpDistOpen(!isOlimpDistOpen);
     }
   };
 
@@ -66,12 +58,9 @@ const Accordion = () => {
           error={error}
           value={inputPassword}
           onChange={(e) => setInputPassword(e.target.value)}
-          inputRef={inputRef}
         />
       ),
       target: 'item-4',
-      onClick: () => handleAccordionClick('OlimpSec'),
-      ariaExpanded: isOlimpSecOpen
     },
     {
       title: 'OLIMPIADA DISTRITO EDUCATIVO 1502',
@@ -81,11 +70,10 @@ const Accordion = () => {
           error={error}
           value={inputPassword}
           onChange={(e) => setInputPassword(e.target.value)}
-          inputRef={inputRef}
         />
       ),
       target: 'item-5',
-      onClick: () => handleAccordionClick('OlimpDist'),
+      onClick: handleAccordionClick,
       ariaExpanded: isOlimpDistOpen
     }
   ];
