@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import DiagSec from './DiagSec';
 import FormativaSec from './FormativaSec';
 import SumativaSec from './SumativaSec';
@@ -7,7 +7,7 @@ import OlimpDist from './OlimpDist';
 
 const correctPassword = '4455'; // La contraseña establecida en el código
 
-const PasswordForm = ({ onSubmit, error, value, onChange }) => (
+const PasswordForm = ({ onSubmit, error, value, onChange, inputRef }) => (
   <form onSubmit={onSubmit}>
     <div className="mb-3">
       <label htmlFor="passwordInput" className="form-label">Ingrese la contraseña:</label>
@@ -17,6 +17,7 @@ const PasswordForm = ({ onSubmit, error, value, onChange }) => (
         className="form-control"
         value={value}
         onChange={onChange}
+        ref={inputRef}
       />
     </div>
     {error && <div className="alert alert-danger">{error}</div>}
@@ -29,6 +30,7 @@ const Accordion = () => {
   const [isPasswordProtected, setIsPasswordProtected] = useState(false);
   const [inputPassword, setInputPassword] = useState('');
   const [error, setError] = useState('');
+  const inputRef = useRef(null);
 
   const handlePasswordSubmit = (event) => {
     event.preventDefault();
@@ -43,6 +45,7 @@ const Accordion = () => {
   const handleAccordionClick = () => {
     if (!isPasswordProtected) {
       setIsOlimpDistOpen(!isOlimpDistOpen);
+      inputRef.current.focus();
     }
   };
 
@@ -58,9 +61,11 @@ const Accordion = () => {
           error={error}
           value={inputPassword}
           onChange={(e) => setInputPassword(e.target.value)}
+          inputRef={inputRef}
         />
       ),
       target: 'item-4',
+      onClick: handleAccordionClick,
     },
     {
       title: 'OLIMPIADA DISTRITO EDUCATIVO 1502',
@@ -70,6 +75,7 @@ const Accordion = () => {
           error={error}
           value={inputPassword}
           onChange={(e) => setInputPassword(e.target.value)}
+          inputRef={inputRef}
         />
       ),
       target: 'item-5',
