@@ -27,6 +27,7 @@ const PasswordForm = ({ onSubmit, error, value, onChange, inputRef }) => (
 
 const Accordion = () => {
   const [isOlimpDistOpen, setIsOlimpDistOpen] = useState(false);
+  const [isOlimpSecOpen, setIsOlimpSecOpen] = useState(false);
   const [isPasswordProtected, setIsPasswordProtected] = useState(false);
   const [inputPassword, setInputPassword] = useState('');
   const [error, setError] = useState('');
@@ -42,9 +43,13 @@ const Accordion = () => {
     }
   };
 
-  const handleAccordionClick = () => {
+  const handleAccordionClick = (section) => {
     if (!isPasswordProtected) {
-      setIsOlimpDistOpen(!isOlimpDistOpen);
+      if (section === 'OlimpSec') {
+        setIsOlimpSecOpen(!isOlimpSecOpen);
+      } else if (section === 'OlimpDist') {
+        setIsOlimpDistOpen(!isOlimpDistOpen);
+      }
       inputRef.current.focus();
     }
   };
@@ -65,7 +70,8 @@ const Accordion = () => {
         />
       ),
       target: 'item-4',
-      onClick: handleAccordionClick,
+      onClick: () => handleAccordionClick('OlimpSec'),
+      ariaExpanded: isOlimpSecOpen
     },
     {
       title: 'OLIMPIADA DISTRITO EDUCATIVO 1502',
@@ -79,7 +85,7 @@ const Accordion = () => {
         />
       ),
       target: 'item-5',
-      onClick: handleAccordionClick,
+      onClick: () => handleAccordionClick('OlimpDist'),
       ariaExpanded: isOlimpDistOpen
     }
   ];
