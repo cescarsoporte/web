@@ -6,8 +6,8 @@ const FormativaSec = () => {
                   <div className="col-1 col-sm-2 secundaria shadow w-auto">
                         <p>ESPAÑOL</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/GpPJ3uyMJZCWsyRB7" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/kKgGDeDoFWQW6T7F9" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE LENGUA ESPAÑOLA CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
@@ -43,8 +43,8 @@ const FormativaSec = () => {
                         <p>SOCIALES</p>
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/K76UGp941SoWQz6o9" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/ERLpCkPXkWkHtmmS6" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/ovzDJnMo5LCvLdgL7" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />

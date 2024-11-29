@@ -35,7 +35,8 @@ const Sitios = () => {
         </div>
       </div>
       </div></li>
-                <li><a href="https://www.canva.com/" target="_blank" title="">Canva</a></li>	  
+                <li><a href="https://www.canva.com/" target="_blank" title="">Canva</a></li>
+				<li><a href="https://www.youtube.com/channel/UCkqxIMNp8yLL1gclqMJnGLw" target="_blank" title="">YouTube</a></li>
 				<li><a href="https://kahoot.it/" target="_blank" title="Permite la creación de cuestionarios de evaluación. Es una herramienta por la que el profesor crea concursos en el aula para aprender o reforzar el aprendizaje y donde los alumnos son los concursantes. Los alumnos eligen su alias o nombre de usuario y contestan a una serie de preguntas por medio de un dispositivo móvil. Existen 2 modos de juego: en grupo o individual. Las partidas de preguntas, una vez creadas, son accesibles por todos los usuarios de manera que pueden ser reutilizadas e incluso modificadas para garantizar el aprendizaje. Se puede modificar el tiempo de cuenta atrás, las posibles respuestas y se pueden añadir fotos o vídeos. Finalmente gana quien obtiene más puntuación.">Kahoot</a></li>
                 <li><a href="https://lihuen.linti.unlp.edu.ar/index.php/Freemind_-_Editor_de_Mapas_Mentales" target="_blank" title="Herramienta para crear mapas mentales, útiles para cualquier área de estudio.">FreeMind</a></li>
                 <li><a href="https://www.geogebra.org/?lang=es" target="_blank" title="Herramientas digitales gratuitas para clases, graficar, geometría, pizarra interactiva y más.">GeoGebra</a></li>
@@ -52,7 +53,6 @@ const Sitios = () => {
                 <li><a href="https://www.uptodown.com/android" target="_blank" title="Es un marketplace centrado en la distribución de software de escritorio y aplicaciones móviles.">Uptodown</a></li>
                 <li><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank" title="La enciclopedia de contenido libre.">Wikipedia</a></li>
                 <li><a href="https://wordwall.net/" target="_blank" title="crear juegos interactivos y materiales impresos para sus alumnos. ">Wordwall</a></li>
-				<li><a className="btn btn-primary disabled shadow" href="https://ee.kobotoolbox.org/x/ti7RuGtr" target="_blank" title="Encuesta de inscripción 2023 Abriendo Camino">Encuesta</a></li>
                 <li><a className="btn btn-primary disabled shadow" href="https://ee.kobotoolbox.org/x/CUbATOVh" target="_blank" title="">Aplicacion de PreTest</a></li>
             </ul>
         </div>
