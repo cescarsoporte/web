@@ -5,7 +5,8 @@ const Sitios = () => {
             <div className="w-auto">
             <h5>SITIOS DE INTERES</h5>
             <ul className="bg-white px-1 shadow-lg text-start">
-                <li>            <div id="accordion-2" className="accordion" role="tablist">
+			
+			 <li>            <div id="accordion-2" className="accordion" role="tablist">
       <div className="accordion-item">
         <h2 className="accordion-header" role="tab">
           <button
@@ -23,6 +24,42 @@ const Sitios = () => {
           className="accordion-collapse collapse item-1"
           role="tabpanel"
           data-bs-parent="#accordion-2"
+        >
+          <div className="">
+                   <ul className="px-1 text-start">
+                    <li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS601-JS/index.html" target="_blank" title="ALEKS | ¿Cómo funciona?">01 - Piscicultura sostenible.</a></li>
+                    <li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS637-JS/index.html" target="_blank" title="ALEKS | ¿Cómo funciona una Verificación de Conocimientos?">02 - Investigación sobre las ladera.</a></li>
+                    <li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS641-JS/index.html" target="_blank" title="Pagina principal de ALEKS">03 - Meteoroides y cráteres</a></li>
+                    <li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA2018-CR548-JS/index.html"  target="_blank" title="Encuesta aleks">04 - Foro sobre aves.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA2018-CR571-JS/index.html"  target="_blank" title="Encuesta aleks">05 - Las islas Galápagos - Un tesoro natural.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-L1210-JS/index.html"  target="_blank" title="Encuesta aleks">06 - El regalo.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1224-JS/index.html"  target="_blank" title="Encuesta aleks">07 - Barcos de vela.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM012-JS/index.html"  target="_blank" title="Encuesta aleks">08 - Vallas.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM010-JS/index.html"  target="_blank" title="Encuesta aleks">09 - Gráficos.</a></li>
+                   </ul>                
+          </div>
+        </div>
+      </div>
+      </div></li>
+			
+                <li>            <div id="accordion-3" className="accordion" role="tablist">
+      <div className="accordion-item">
+        <h2 className="accordion-header" role="tab">
+          <button
+            className="accordion-button collapsed px-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#accordion-3 .item-1"
+            aria-expanded="true"
+            aria-controls="accordion-3 .item-1"
+          >
+            Aleks
+          </button>
+        </h2>
+        <div
+          className="accordion-collapse collapse item-1"
+          role="tabpanel"
+          data-bs-parent="#accordion-3"
         >
           <div className="">
                    <ul className="px-1 text-start">
