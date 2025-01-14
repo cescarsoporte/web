@@ -17,7 +17,7 @@ const Sitios = () => {
             aria-expanded="true"
             aria-controls="accordion-2 .item-1"
           >
-            Aleks
+            PISA
           </button>
         </h2>
         <div
@@ -36,6 +36,11 @@ const Sitios = () => {
 					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1224-JS/index.html"  target="_blank" title="Encuesta aleks">07 - Barcos de vela.</a></li>
 					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM012-JS/index.html"  target="_blank" title="Encuesta aleks">08 - Vallas.</a></li>
 					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM010-JS/index.html"  target="_blank" title="Encuesta aleks">09 - Gráficos.</a></li>
+					<li><a href="https://pisa2022-questions.oecd.org/platform/index.html?user=&unit=MAT/MA159-Spinners&lang=esp-CHL"  target="_blank" title="Encuesta aleks">10 - Ruletas.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorRP-C101a-JS/index.html"  target="_blank" title="Encuesta aleks">11 - La visita.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS633-JS/index.html"  target="_blank" title="Encuesta aleks">12 - Casa de bajo consumo.</a></li>
+					<li><a href="https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS623-JS/index.html"  target="_blank" title="Encuesta aleks">13 - Correr en dias de calor.</a></li>
+					<li><a href="https://pisa2022-questions.oecd.org/platform/index.html?user=&domain=CRT&unit=T200-SCienceFairPoster&lang=esp-ESP"  target="_blank" title="Encuesta aleks">14 - Cartel de la exposicion de ciencias.</a></li>
                    </ul>                
           </div>
         </div>
