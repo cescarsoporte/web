@@ -22,17 +22,23 @@ const AccordionItem = ({ id, title, links }) => (
       <div className="">
         <ul className="px-1 text-start">
           {links.map((link, index) => (
-            <li key={index}>
-              <a
-                href={link.href}
-                target="_blank"
-                title={link.title}
-                className={link.text === "Aplicacion de PreTest" ? "btn btn-primary disabled shadow w-100" : ""}
-              >
-                {link.text}
-              </a>
-            </li>
-          ))}
+  <React.Fragment key={index}>
+    {link.type === "separator" ? (
+      <div className="my-2 border-top"></div> // Separador con borde y margen
+    ) : (
+      <li>
+        <a
+          href={link.href}
+          target="_blank"
+          title={link.title}
+          className={link.text === "Aplicacion de PreTest" ? "btn btn-primary disabled shadow w-100" : ""}
+        >
+          {link.text}
+        </a>
+      </li>
+    )}
+  </React.Fragment>
+))}
         </ul>
       </div>
     </div>
@@ -40,24 +46,25 @@ const AccordionItem = ({ id, title, links }) => (
 );
 
 const Sitios = () => {
-  const pisaLinks = [
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS601-JS/index.html", title: "ALEKS | ¿Cómo funciona?", text: "01 - Piscicultura sostenible." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS637-JS/index.html", title: "ALEKS | ¿Cómo funciona una Verificación de Conocimientos?", text: "02 - Investigación sobre las ladera." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS641-JS/index.html", title: "Pagina principal de ALEKS", text: "03 - Meteoroides y cráteres" },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA2018-CR548-JS/index.html", title: "Encuesta aleks", text: "04 - Foro sobre aves." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA2018-CR571-JS/index.html", title: "Encuesta aleks", text: "05 - Las islas Galápagos - Un tesoro natural." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-L1210-JS/index.html", title: "Encuesta aleks", text: "06 - El regalo." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1224-JS/index.html", title: "Encuesta aleks", text: "07 - Barcos de vela." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM012-JS/index.html", title: "Encuesta aleks", text: "08 - Vallas." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM010-JS/index.html", title: "Encuesta aleks", text: "09 - Gráficos." },
-    { href: "https://pisa2022-questions.oecd.org/platform/index.html?user=&unit=MAT/MA159-Spinners&lang=esp-CHL", title: "Encuesta aleks", text: "10 - Ruletas." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorRP-C101a-JS/index.html", title: "Encuesta aleks", text: "11 - La visita." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS633-JS/index.html", title: "Encuesta aleks", text: "12 - Casa de bajo consumo." },
-    { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS623-JS/index.html", title: "Encuesta aleks", text: "13 - Correr en dias de calor." },
-    { href: "https://pisa2022-questions.oecd.org/platform/index.html?user=&domain=CRT&unit=T200-SCienceFairPoster&lang=esp-ESP", title: "Encuesta aleks", text: "14 - Cartel de la exposicion de ciencias." },	
-    { href: "https://proyectodescartes.org/competencias/", title: "Esta web recoge objetos de aprendizaje interactivos cuyo objetivo es la formación y evaluación competencial. Sus contenidos se basan en las unidades liberadas de PISA.", text: "Proyecto Descartes" },
-    { href: "https://pisa2022-questions.oecd.org/", title: "Contenidos basado en las unidades liberadas de PISA.", text: "Unidades liberadas de PISA" }
-  ];
+const pisaLinks = [
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS601-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "01 - Piscicultura sostenible." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS637-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "02 - Investigación sobre las ladera." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS641-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "03 - Meteoroides y cráteres" },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA2018-CR548-JS/index.html"		  				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "04 - Foro sobre aves." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA2018-CR571-JS/index.html"		  				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "05 - Las islas Galápagos - Un tesoro natural." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-L1210-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "06 - El regalo." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1224-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "07 - Barcos de vela." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM012-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "08 - Vallas." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM010-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "09 - Gráficos." },
+  { href: "https://pisa2022-questions.oecd.org/platform/index.html?user=&unit=MAT/MA159-Spinners&lang=esp-CHL"	  				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "10 - Ruletas." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorRP-C101a-JS/index.html"  				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "11 - La visita." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS633-JS/index.html"	  				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "12 - Casa de bajo consumo." },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS623-JS/index.html"					, title: "Contenidos basado en las unidades liberadas de PISA.", text: "13 - Correr en dias de calor." },
+  { href: "https://pisa2022-questions.oecd.org/platform/index.html?user=&domain=CRT&unit=T200-SCienceFairPoster&lang=esp-ESP"	, title: "Contenidos basado en las unidades liberadas de PISA.", text: "14 - Cartel de la exposicion de ciencias." },	
+  { type: "separator" }, // Separador
+  { href: "https://proyectodescartes.org/competencias/", title: "Esta web recoge objetos de aprendizaje interactivos cuyo objetivo es la formación y evaluación competencial. Sus contenidos se basan en las unidades liberadas de PISA.", text: "Proyecto Descartes" },
+  { href: "https://pisa2022-questions.oecd.org/", title: "Contenidos basado en las unidades liberadas de PISA.", text: "Unidades liberadas de PISA" }
+];
 
   const aleksLinks = [
     { href: "https://www.youtube.com/watch?v=K1u8bKx13ok", title: "ALEKS | ¿Cómo funciona?", text: "VIDEO 1" },
