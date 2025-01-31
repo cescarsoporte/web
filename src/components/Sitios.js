@@ -61,11 +61,18 @@ const pisaLinks = [
   { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS633-JS/index.html"	  				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "12 - Casa de bajo consumo." },
   { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISAordenadorC-CS623-JS/index.html"					, title: "Contenidos basado en las unidades liberadas de PISA.", text: "13 - Correr en dias de calor." },
   { href: "https://pisa2022-questions.oecd.org/platform/index.html?user=&domain=CRT&unit=T200-SCienceFairPoster&lang=esp-ESP"	, title: "Contenidos basado en las unidades liberadas de PISA.", text: "14 - Cartel de la exposicion de ciencias." },	
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1227-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "15 - Puerta giratoria" },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1235-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "16 - Estatura" },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1243-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "17 - Que coche" },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1224-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "18 - Barco de vela" },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1212-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "19 - La ciclista" },
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-M1206-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "20 - Bicicleta" },    
+  { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CM010-JS/index.html"				, title: "Items liberado de prueba pisa del area de Matematica", text: "21 - Graficos" },  
   { type: "separator" }, // Separador
-  { href: "https://cescarsoporte.github.io/pisa/English/index.html", title: "Items elaborado de prueba pisa del area de lengua extranjera", text: "15 - English" },
-  { href: "https://proyectodescartes.org/competencias/", title: "Esta web recoge objetos de aprendizaje interactivos cuyo objetivo es la formación y evaluación competencial. Sus contenidos se basan en las unidades liberadas de PISA.", text: "Proyecto Descartes" },
-  { href: "https://pisa2022-questions.oecd.org/", title: "Contenidos basado en las unidades liberadas de PISA.", text: "Unidades liberadas de PISA" }  
-];
+  { href: "https://cescarsoporte.github.io/pisa/English/index.html", title: "Items elaborado de prueba pisa del area de lengua extranjera", text: "22 - English" },
+  { href: "https://proyectodescartes.org/competencias/", title: "Esta web recoge objetos de aprendizaje interactivos cuyo objetivo es la formación y evaluación competencial. Sus contenidos se basan en las unidades liberadas de PISA.", text: "PROYECTO DESCARTES" },
+  { href: "https://pisa2022-questions.oecd.org/", title: "Contenidos basado en las unidades liberadas de PISA.", text: "UNIDADES LIBERADAS DE PISA" } 
+ ];
 
   const aleksLinks = [
     { href: "https://www.youtube.com/watch?v=K1u8bKx13ok", title: "ALEKS | ¿Cómo funciona?", text: "VIDEO 1" },
