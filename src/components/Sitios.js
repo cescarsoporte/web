@@ -111,8 +111,7 @@ const pisaLinks = [
       <h5>SITIOS DE INTERES</h5>
       <ul className="bg-white px-1 shadow-lg text-start">
         <li>
-          <div id="accordion-2" className="accordion" role="tablist">			
-            <AccordionItem id="1" title="INTERNET SANO" links={InternetLinks_Desabled} />
+          <div id="accordion-2" className="accordion" role="tablist">
             <AccordionItem id="2" title="PISA 2025" links={pisaLinks} />
             <AccordionItem id="3" title="Aleks" links={aleksLinks} />
             <AccordionItem id="4" title="Otros Sitios" links={otrosLinks} />
