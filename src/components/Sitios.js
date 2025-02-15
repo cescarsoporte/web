@@ -46,9 +46,6 @@ const AccordionItem = ({ id, title, links }) => (
 );
 
 const Sitios = () => {
-	const InternetLinks = [
-    { href: "https://forms.gle/gB42AXNnRTQ8uXfn9", title: "Con el propósito de conocer de nuestros estudiantes algunos aspectos que tienen que ver con el buen uso de las redes sociales y demás herramientas tecnológicos disponibles en la actualidad, les invitamos a llenar el siguiente formulario para de manera general saber el nivel de dominio sobre este tema. Nota: Se ha omitido los datos personales.", text: "Formulario de Evaluación Internet Seguro" }
-    ];
 const pisaLinks = [
   { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS601-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "01 - Piscicultura sostenible." },
   { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS637-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "02 - Investigación sobre las ladera." },
@@ -112,9 +109,9 @@ const pisaLinks = [
       <ul className="bg-white px-1 shadow-lg text-start">
         <li>
           <div id="accordion-2" className="accordion" role="tablist">
-            <AccordionItem id="2" title="PISA 2025" links={pisaLinks} />
-            <AccordionItem id="3" title="Aleks" links={aleksLinks} />
-            <AccordionItem id="4" title="Otros Sitios" links={otrosLinks} />
+            <AccordionItem id="1" title="PISA 2025" links={pisaLinks} />
+            <AccordionItem id="2" title="Aleks" links={aleksLinks} />
+            <AccordionItem id="3" title="Otros Sitios" links={otrosLinks} />
           </div>
         </li>
       </ul>
