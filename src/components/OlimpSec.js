@@ -51,9 +51,9 @@ const OlimpSec = () => {
 					<div className="col-1 col-sm-2 secundaria shadow w-auto">
                         <p>ENGLISH</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary disabled shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfehBQnGgRnN4JvPpwzvQl9-8ZzoseQQMnrPaKvb1u7V8woJQ/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfehBQnGgRnN4JvPpwzvQl9-8ZzoseQQMnrPaKvb1u7V8woJQ/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScLco3IsRMgh0PR_HIaPo3QU5kP9myfFEms4nhX-Mz9k-NcCQ/viewform?usp=sharing" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScLco3IsRMgh0PR_HIaPo3QU5kP9myfFEms4nhX-Mz9k-NcCQ/viewform?usp=sharing" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
