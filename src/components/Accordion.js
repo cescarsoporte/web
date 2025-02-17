@@ -7,18 +7,17 @@ import OlimpDist from './OlimpDist';
 
 const correctPassword = '4455'; // La contraseña establecida en el código
 
-const PasswordForm = ({ onSubmit, error, value, onChange, inputRef }) => (
+const PasswordForm = ({ onSubmit, error, value, onChange, inputRef, id }) => (
   <form onSubmit={onSubmit}>
     <div className="mb-3">
-      <label htmlFor="passwordInput" className="form-label">Ingrese la contraseña:</label>
+      <label htmlFor={id} className="form-label">Ingrese la contraseña:</label>
       <input
         type="password"
-		id="passwordInput"
-        // id={`passwordInput-${inputRef}`}  // Concatenación dentro de llaves
+        id={id}
         className="form-control"
         value={value}
         onChange={onChange}
-        ref={inputRef} // Asignamos la referencia al input
+        ref={inputRef}
       />
     </div>
     {error && <div className="alert alert-danger">{error}</div>}
@@ -74,34 +73,37 @@ const Accordion = () => {
       target: 'item-3',
       sectionKey: 'SumativaSec',
     },
-    {
-      title: 'OLIMPIADA INTERNA',
-      component: isPasswordProtected ? <OlimpSec /> : (
-        <PasswordForm
-          onSubmit={handlePasswordSubmit}
-          error={error}
-          value={inputPassword}
-          onChange={(e) => setInputPassword(e.target.value)}
-          inputRef={olimpSecInputRef}
-        />
-      ),
-      target: 'item-4',
-      sectionKey: 'OlimpSec',
-    },
-    {
-      title: 'OLIMPIADA DISTRITO EDUCATIVO 1502',
-      component: isPasswordProtected ? <OlimpDist /> : (
-        <PasswordForm
-          onSubmit={handlePasswordSubmit}
-          error={error}
-          value={inputPassword}
-          onChange={(e) => setInputPassword(e.target.value)}
-          inputRef={olimpDistInputRef}
-        />
-      ),
-      target: 'item-5',
-      sectionKey: 'OlimpDist',
-    },
+    // En tu array de sections:
+{
+  title: 'OLIMPIADA INTERNA',
+  component: isPasswordProtected ? <OlimpSec /> : (
+    <PasswordForm
+      id="passwordInput-OlimpSec"  // ID único
+      onSubmit={handlePasswordSubmit}
+      error={error}
+      value={inputPassword}
+      onChange={(e) => setInputPassword(e.target.value)}
+      inputRef={olimpSecInputRef}
+    />
+  ),
+  target: 'item-4',
+  sectionKey: 'OlimpSec',
+},
+{
+  title: 'OLIMPIADA DISTRITO EDUCATIVO 1502',
+  component: isPasswordProtected ? <OlimpDist /> : (
+    <PasswordForm
+      id="passwordInput-OlimpDist"  // ID único
+      onSubmit={handlePasswordSubmit}
+      error={error}
+      value={inputPassword}
+      onChange={(e) => setInputPassword(e.target.value)}
+      inputRef={olimpDistInputRef}
+    />
+  ),
+  target: 'item-5',
+  sectionKey: 'OlimpDist',
+},
   ];
 
   return (
