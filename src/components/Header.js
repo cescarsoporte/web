@@ -5,9 +5,14 @@ import img2 from "../../src/img/minerd128.png";
 
 const Header = () => {
   return (
-    <div className="row">
-      <div className="p-4 text-center" style={{ fontFamily: "Arial" }}>
-        <h3>
+    <div className="row" style={{ height: "200px" }}>
+      <div className="navbar navbar-expand-sm navbar-dark" style={{flexWrap: "nowrap"}}>
+	  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+	  <div className="collapse justify-content-center navbar-collapse" id="collapsibleNavbar" style={{ fontFamily: "Arial" }}>
+        <div className="p-4 text-center ">
+		<h3>
           <strong>Arquidiócesis de santo domingo</strong>
         </h3>
         <h4>
@@ -19,7 +24,9 @@ const Header = () => {
         <h6>
           <strong>Coordinación TIC's</strong>
         </h6>
+		</div>
       </div>
+	  </div>
       <div className="flip-img">
         <div className="ang-logo flip-img-inner">
           <img
