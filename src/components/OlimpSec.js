@@ -27,7 +27,7 @@ const OlimpSec = () => {
                     <div className="col-1 col-sm-2 secundaria shadow w-auto">
                         <p>NATURALES</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/pJJdMa9nrHWQxgSW8" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
