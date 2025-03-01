@@ -40,7 +40,7 @@ const OlimpDist = () => {
                         </ul>
                     </div>
                     <div className="col-1 col-sm-2 secundaria shadow w-auto">
-                        <p className="text-center">INGLES</p>
+                        <p className="text-center">FIHR</p>
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Para alumnos de 5TO y 6TO de primaria.  ">CATEG. A</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Para alumnos de 1RO y 2DO de secundaria.">CATEG. B</a></li><p />
