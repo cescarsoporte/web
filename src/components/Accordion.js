@@ -5,7 +5,7 @@ import SumativaSec from './SumativaSec';
 import OlimpSec from './OlimpSec';
 import OlimpDist from './OlimpDist';
 
-const correctPassword = '4455'; // La contraseña establecida en el código
+const correctPassword = '1122'; // La contraseña establecida en el código
 
 const PasswordForm = ({ onSubmit, error, value, onChange, inputRef, id }) => (
   <form onSubmit={onSubmit}>
