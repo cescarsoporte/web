@@ -46,6 +46,14 @@ const AccordionItem = ({ id, title, links }) => (
 );
 
 const Sitios = () => {
+	const sapceLinks = [
+    { href: "", title: "English For A Better Life", text: "SAPCE" },
+    ];
+	const prueba2025Links = [
+    { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/3er-grado-primaria?authuser=0", title: "Prueba internacional 2025 RD", text: "3er grado de primaria" },
+    { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/6%C2%BA-grado-primaria?authuser=0", title: "Prueba internacional 2025 RD", text: "6to grado de primaria" },
+    { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/2%C2%BA-ciclo-secundaria?authuser=0", title: "Prueba internacional 2025 RD", text: "2do ciclo de secundaria" }
+  ];
 const pisaLinks = [
   { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS601-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "01 - Piscicultura sostenible." },
   { href: "https://proyectodescartes.org/competencias/materiales_didacticos/PISA-REDDescartes-CS637-JS/index.html"				, title: "Contenidos basado en las unidades liberadas de PISA.", text: "02 - Investigación sobre las ladera." },
@@ -109,9 +117,11 @@ const pisaLinks = [
       <ul className="bg-white px-1 shadow-lg text-start">
         <li>
           <div id="accordion-2" className="accordion" role="tablist">
-            <AccordionItem id="1" title="PISA 2025" links={pisaLinks} />
-            <AccordionItem id="2" title="Aleks" links={aleksLinks} />
-            <AccordionItem id="3" title="Otros Sitios" links={otrosLinks} />
+			<AccordionItem id="1" title="SAPCE" links={sapceLinks} />		  
+			<AccordionItem id="2" title="PRUEBA 2025" links={prueba2025Links} />
+            <AccordionItem id="3" title="PISA 2025" links={pisaLinks} />
+            <AccordionItem id="4" title="Aleks" links={aleksLinks} />
+            <AccordionItem id="5" title="Otros Sitios" links={otrosLinks} />
           </div>
         </li>
       </ul>
