@@ -47,7 +47,7 @@ const AccordionItem = ({ id, title, links }) => (
 
 const Sitios = () => {
 	const sapceLinks = [
-    { href: "", title: "English For A Better Life", text: "SAPCE" },
+    { href: "https://sapce.minerd.gob.do/acuerdo.php", title: "English For A Better Life", text: "SAPCE" },
     ];
 	const prueba2025Links = [
     { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/3er-grado-primaria?authuser=0", title: "Prueba internacional 2025 RD", text: "3er grado de primaria" },
