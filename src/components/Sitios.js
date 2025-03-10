@@ -117,7 +117,7 @@ const pisaLinks = [
       <ul className="bg-white px-1 shadow-lg text-start">
         <li>
           <div id="accordion-2" className="accordion" role="tablist">
-			<AccordionItem id="1" title="SAPCE" links={sapceLinks} />		  
+			<AccordionItem id="1" title="ENGLISH" links={sapceLinks} />		  
 			<AccordionItem id="2" title="PRUEBA 2025" links={prueba2025Links} />
             <AccordionItem id="3" title="PISA 2025" links={pisaLinks} />
             <AccordionItem id="4" title="Aleks" links={aleksLinks} />
