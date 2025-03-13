@@ -30,8 +30,8 @@ const SumativaSec = () => {
                     <div className="col-1 col-sm-2 secundaria shadow w-auto">
                         <p>NATURALES</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSd2AGV7oEbrzRmwMHmI0x0N9j7NkTg9HY5Vl2qUwb0JS-5-gg/viewform?usp=sharing" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSemxDgltpHazjRQWz3v7iNHUfejUVpfoPzSRr0fHCBBv0iSpQ/viewform?usp=sharing" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScuh_hcmWXloM8dvrRDS6DQCzaVU--dcHYX18zfnS8xb-X32A/viewform?usp=sharing" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION SUMATIVA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />

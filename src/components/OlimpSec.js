@@ -44,7 +44,7 @@ const OlimpSec = () => {
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScGqdrrNer7Hwm_hybpj3Y_24Mw0LG6s7zmmwM7hfil5jt_4w/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE lengua española, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                         </ul>
                     </div>
