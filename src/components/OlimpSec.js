@@ -27,12 +27,12 @@ const OlimpSec = () => {
                     <div className="col-1 col-sm-2 secundaria shadow w-auto">
                         <p>NATURALES</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/pJJdMa9nrHWQxgSW8" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://forms.gle/pJJdMa9nrHWQxgSW8" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/xqvxnbDTwmYfuCz87" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://forms.gle/xqvxnbDTwmYfuCz87" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS NATURALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE lengua española, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                         </ul>
                     </div>
@@ -43,17 +43,16 @@ const OlimpSec = () => {
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScGqdrrNer7Hwm_hybpj3Y_24Mw0LG6s7zmmwM7hfil5jt_4w/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE lengua española, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
+							<li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScGqdrrNer7Hwm_hybpj3Y_24Mw0LG6s7zmmwM7hfil5jt_4w/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES, categoría A: (1ro y 2do de secundaria).">CATEG. B</a></li><p />
+							<li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE CIENCIAS SOCIALES, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                         </ul>
                     </div>
 					<div className="col-1 col-sm-2 secundaria shadow w-auto">
                         <p>ENGLISH</p>
                         <ul className="list-unstyled">
-                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfehBQnGgRnN4JvPpwzvQl9-8ZzoseQQMnrPaKvb1u7V8woJQ/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLSfehBQnGgRnN4JvPpwzvQl9-8ZzoseQQMnrPaKvb1u7V8woJQ/viewform?usp=header" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScLco3IsRMgh0PR_HIaPo3QU5kP9myfFEms4nhX-Mz9k-NcCQ/viewform?usp=sharing" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
+                            <li><a className="btn btn-primary disabled shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScLco3IsRMgh0PR_HIaPo3QU5kP9myfFEms4nhX-Mz9k-NcCQ/viewform?usp=sharing" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="OLIMPIADA INTERNA DE INGLES-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
