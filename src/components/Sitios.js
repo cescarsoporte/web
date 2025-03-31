@@ -90,6 +90,7 @@ const pisaLinks = [
   ];
   
   const otrosLinks = [
+    { href: "https://www.elegircarrera.net/test-vocacional/", title: "Averigua en 5 minutos que estudios son los mas adecuado para ti", text: "Test Vocacional" },
     { href: "https://www.canva.com/", title: "Es una herramienta online de diseño gráfico de uso gratuito. Utilízala para crear publicaciones para redes sociales, presentaciones, carteles, vídeos, logos y mucho más.", text: "Canva" },
     { href: "https://lihuen.linti.unlp.edu.ar/index.php/", title: "Herramienta para crear mapas mentales, útiles para cualquier área de estudio.", text: "FreeMind" },
     { href: "https://www.geogebra.org/?lang=es", title: "Herramientas digitales gratuitas para clases, graficar, geometría, pizarra interactiva y más.", text: "GeoGebra" },
