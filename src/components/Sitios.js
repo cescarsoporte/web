@@ -47,7 +47,7 @@ const AccordionItem = ({ id, title, links }) => (
 
 const Sitios = () => {
 	const sapceLinks = [
-    { href: "https://sapce.minerd.gob.do/acuerdo.php", title: "English For A Better Life", text: "SAPCE" },
+    { href: "https://efideu.b2clogin.com/efideu.onmicrosoft.com/b2c_1a_auth_corp_efid/oauth2/v2.0/authorize?client_id=328f4e7d-90a7-4cee-b5c8-07194886cae6&redirect_uri=https%3a%2f%2fglobal.accounts.corporate.ef.com%2fefcorpglobal.onmicrosoft.com%2foauth2%2fauthresp&response_type=code&scope=openid&response_mode=form_post&nonce=mIq0hYiPyLXDXMvFpYv6Vw%3d%3d&prompt=login&state=StateProperties%3deyJTSUQiOiJ4LW1zLWNwaW0tcmM6MTViOWZhZTctZDVjYy00MWMyLWI5ZGMtN2ZlNWZlYjAyMTMyIiwiVElEIjoiNzBlZDMzZWMtN2I0ZC00MDg3LWFiNmQtODkyNDIzNWYxY2IwIiwiVE9JRCI6IjZkMDU5MTdkLWJmZTctNDAzZC05MjZkLTc1NGQ3MDllNWJiMCJ9", title: "English For A Better Life", text: "SAPCE" },
     ];
 	const prueba2025Links = [
     { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/3er-grado-primaria?authuser=0", title: "Prueba internacional 2025 RD", text: "3er grado de primaria" },
