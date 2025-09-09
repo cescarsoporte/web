@@ -46,11 +46,8 @@ const AccordionItem = ({ id, title, links }) => (
 );
 
 const Sitios = () => {
-const smvLinks = [
-    {href: "https://docs.google.com/forms/d/e/1FAIpQLSd-GpGvAus5CI7PjWrBPkwbzdP1qPJr-VdWgm84NyKUme6Waw/viewform?usp=sharing&ouid=101984117606182944316", title: "Servicio Militar Voluntario", text: "Cuestionario A-D"}
-    ];
 	const sapceLinks = [
-    { href: "https://onedrive.live.com/login/", title: "English For A Better Life", text: "SAPCE" }
+    { href: "https://onedrive.live.com/login/", title: "English For A Better Life", text: "SAPCE" },
     ];
 	const prueba2025Links = [
     { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/3er-grado-primaria?authuser=0", title: "Prueba internacional 2025 RD", text: "3er grado de primaria" },
@@ -121,12 +118,11 @@ const pisaLinks = [
       <ul className="bg-white px-1 shadow-lg text-start">
         <li>
           <div id="accordion-2" className="accordion" role="tablist">
-	    <AccordionItem id="1" title="SMV" links={smvLinks} />	
-	    <AccordionItem id="2" title="ENGLISH" links={sapceLinks} />		  
-	    <AccordionItem id="3" title="PRUEBA 2025" links={prueba2025Links} />
-            <AccordionItem id="4" title="PISA 2025" links={pisaLinks} />
-            <AccordionItem id="5" title="Aleks" links={aleksLinks} />
-            <AccordionItem id="6" title="Otros Sitios" links={otrosLinks} />
+			<AccordionItem id="1" title="ENGLISH" links={sapceLinks} />		  
+			<AccordionItem id="2" title="PRUEBA 2025" links={prueba2025Links} />
+            <AccordionItem id="3" title="PISA 2025" links={pisaLinks} />
+            <AccordionItem id="4" title="Aleks" links={aleksLinks} />
+            <AccordionItem id="5" title="Otros Sitios" links={otrosLinks} />
           </div>
         </li>
       </ul>

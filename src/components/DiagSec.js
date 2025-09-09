@@ -55,7 +55,7 @@ const DiagSec = () => {
                         <p>QUIMICA</p>
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/P7Z4CbS8Kqr2Suj48" target="_blank" title="EVALUACION DIAGNOSTICA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://padlet.com/manubloom27/el-tema-de-debate-va-aqu-wxt70mjuxumh8bb9" target="_blank" title="EVALUACION DIAGNOSTICA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
@@ -69,7 +69,7 @@ const DiagSec = () => {
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
-                            <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/pi5f1X6vw7E7jEPq6" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://padlet.com/manubloom27/concepto-de-ciencias-fisicas-ohdepcdufl7khlu9" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EVALUACION DIAGNOSTICA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="Evaluacion diagnostica de fisica, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
