@@ -55,7 +55,7 @@ const FormativaSec = () => {
                         <p>QUIMICA</p>
                         <ul className="list-unstyled">
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                            <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                            <li><a className="btn btn-primary shadow w-100" href="https://phet.colorado.edu/sims/cheerpj/molecule-polarity/latest/molecule-polarity.html?simulation=molecule-polarity" target="_blank" title="EDUCACION FORMATIVA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                             <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE QUIMICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
