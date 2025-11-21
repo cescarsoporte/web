@@ -47,7 +47,7 @@ const AccordionItem = ({ id, title, links }) => (
 
 const Sitios = () => {
 const smvLinks = [
-    {href: "https://docs.google.com/forms/d/e/1FAIpQLSe6uCXk1Fm7TNla-LsDniftzjPwBlO2-jstIaokATkcVrcfOA/viewform", title: "Servicio Militar Voluntario", text: "Cuestionario A-D"}
+    {href: "https://docs.google.com/forms/d/153vrDPnSX-x4zQeEs0z_tTlwiHbFzwQ22-kEUl0pCgo/edit", title: "Servicio Militar Voluntario", text: "Cuestionario A-D"}
     ];
 	const sapceLinks = [
     { href: "https://onedrive.live.com/login/", title: "English For A Better Life", text: "SAPCE" }
