@@ -54,7 +54,7 @@ const FormativaSec = () => {
             <div className="col-1 col-sm-2 secundaria shadow w-auto">
                 <p>MANUELA</p>
                 <ul className="list-unstyled">
-                    <li><a className="btn btn-primary disabled shadow w-100" href="https://www.educaplay.com/learning-resources/26965936-la_combustion_quiz_interactivo.html" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 1</a></li><p />
+                    <li><a className="btn btn-primary shadow w-100" href="https://create.kahoot.it/share/leyes-de-los-gases/f06698cb-ec9b-4ab9-81a5-bd0fcf00dd06" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 1</a></li><p />
                     <li><a className="btn btn-primary shadow w-100" href="https://www.educaplay.com/learning-resources/26966711-fuego_y_combustion_quiz_interactivo.html" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 2</a></li><p />
                     <li><a className="btn btn-primary shadow w-100" href="https://www.educaplay.com/learning-resources/26985984-falso_y_verdadero_reacciones_de_combustion.html" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 3</a></li><p />
                     <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/zDCXAacHLba6F8Ab6" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 4</a></li><p />
