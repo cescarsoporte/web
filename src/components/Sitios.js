@@ -60,7 +60,7 @@ const Sitios = () => {
     { href: "https://docs.google.com/forms/d/153vrDPnSX-x4zQeEs0z_tTlwiHbFzwQ22-kEUl0pCgo/edit", title: "Servicio Militar Voluntario", text: "Cuestionario A-D" }
   ];
   const sapceLinks = [
-    { href: "https://onedrive.live.com/login/", title: "English For A Better Life", text: "SAPCE" }
+    { href: "https://sapce.minerd.gob.do/", title: "English For A Better Life", text: "SAPCE" }
   ];
   const prueba2025Links = [
     { href: "https://sites.google.com/fictionexpress.co.uk/pruebasinternacionales2025rd/3er-grado-primaria?authuser=0", title: "Prueba internacional 2025 RD", text: "3er grado de primaria" },

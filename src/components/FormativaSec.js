@@ -75,10 +75,10 @@ const FormativaSec = () => {
                 </ul>
             </div>
             {/* <div className="col-1 col-sm-2 secundaria shadow w-auto">
-                <p>FISICA</p>
+                <p>FIHR</p>
                 <ul className="list-unstyled">
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
-                    <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
+                    <li><a className="btn btn-primary shadow w-100" href="https://docs.google.com/forms/d/e/1FAIpQLScZjdG2Dsp0u74iDUg6hXTXCVeUx8PUJwY9tXjwpOG1V74o_Q/viewform?usp=publish-editor" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">5TO</a></li><p />
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">4TO</a></li><p />
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">3RO</a></li><p />
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">2DO</a></li><p />
