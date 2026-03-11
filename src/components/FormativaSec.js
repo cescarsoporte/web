@@ -51,7 +51,7 @@ const FormativaSec = () => {
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE lengua española, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                 </ul>
             </div>
-            <div className="col-1 col-sm-2 secundaria shadow w-auto">
+            {/* <div className="col-1 col-sm-2 secundaria shadow w-auto">
                 <p>MANUELA</p>
                 <ul className="list-unstyled">
                     <li><a className="btn btn-primary shadow w-100" href="https://create.kahoot.it/share/leyes-de-los-gases/f06698cb-ec9b-4ab9-81a5-bd0fcf00dd06" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 1</a></li><p />
@@ -61,7 +61,7 @@ const FormativaSec = () => {
                     <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/AS22a2VBaNdZbec98" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 5</a></li><p />
                     <li><a className="btn btn-primary shadow w-100" href="https://forms.gle/AS22a2VBaNdZbec98" target="_blank" title="EDUCACION FORMATIVA DE MANUELA-CENTRO EDUCATIVO SANTO CURA DE ARS">ACTIVIDAD 6</a></li><p />
                 </ul>
-            </div>
+            </div> */}
             <div className="col-1 col-sm-2 secundaria shadow w-auto">
                 <p>QUIMICA</p>
                 <ul className="list-unstyled">
