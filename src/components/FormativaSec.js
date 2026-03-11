@@ -74,7 +74,7 @@ const FormativaSec = () => {
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE quimica, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                 </ul>
             </div>
-            {/* <div className="col-1 col-sm-2 secundaria shadow w-auto">
+            <div className="col-1 col-sm-2 secundaria shadow w-auto">
                 <p>FIHR</p>
                 <ul className="list-unstyled">
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">6TO</a></li><p />
@@ -85,7 +85,7 @@ const FormativaSec = () => {
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE FISICA-CENTRO EDUCATIVO SANTO CURA DE ARS">1RO</a></li><p />
                     <li><a className="btn btn-primary disabled shadow w-100" href="#" target="_blank" title="EDUCACION FORMATIVA DE fisica, categoría A: (5to y 6to de primaria).">CATEG. A</a></li><p />
                 </ul>
-            </div> */}
+            </div>
         </div>
     );
 };
